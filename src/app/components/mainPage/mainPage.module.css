@@ -1,0 +1,60 @@
+.section{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageContainer{
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Name Header */
+.nameWord{
+    align-self: flex-start;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Image Containers */
+.myImageWrapper{
+    width: 80%;
+    height: auto;
+    border-radius: 100%;
+    aspect-ratio: 1 / 1;
+    z-index: 1;
+    background-color: black;
+}
+
+.myImageContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.myImage{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+/* Skills names */
+.skillsNames{
+    align-self: flex-end;
+    text-align: end;
+}
+
+.skillsNames h1{
+    margin-top: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+}

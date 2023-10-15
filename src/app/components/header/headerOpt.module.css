@@ -1,0 +1,23 @@
+.headerOptContainer{
+    display: flex;
+    align-items: center;
+}
+
+.headerOptInput{
+    display: none;
+}
+
+.headerOptLabel{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.headerOptLabel:hover{
+    cursor: pointer;
+}
+
+.optDot{
+    height: 0.4rem;
+    width: 0.4rem;
+    background-color: var(--button-show);
+    border-radius: 100%;
+}
